@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: var(--wenge-brown);
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Young Serif", serif;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+ul,
+ol {
+  padding-left: 1rem;
+  font-weight: 400;
+}
+
+ul li,
+ol li {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--dark-raspberry);
+}
+ol li {
+    font-weight: 700;
+}
+
+ul li:last-child,
+ol li:last-child {
+  margin-bottom: 0;
+}
+
+ul li span,
+ol li span {
+  color: var(--wenge-brown);
+}
+
+ol li span {
+    font-weight: 400;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid var(--light-grey);
+}
+
+p {
+    padding: 1rem 0;
+}
+
+.--brandy-red {
+  color: var(--dark-raspberry);
+}
+
+.top-image {
+  width: 100%;
+}
+
+.top-image img {
+  width: 100%;
+  height: 10.6875rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content {
+  display: flex;
+  padding: 2.5rem 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.content h1 {
+  font-size: 2.25rem;
+  color: var(--dark-charcoal);
+}
+
+.content h2 {
+  font-size: 1.75rem;
+}
+
+.preparation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background-color: var(--rose-white);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+.preparation h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: var(--dark-raspberry);
+}
+
+.nutrition-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.nutrition-table .nutrition-row {
+  display: flex;
+  padding: 0.75rem 0;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.nutrition-table .nutrition-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.nutrition-table .nutrition-row:first-child {
+  padding-top: 0;
+}
+
+.nutrition-table .nutrition-row span {
+  text-align: left;
+  justify-self: self-start;
+}
+
+.nutrition-table .nutrition-row span:last-child {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--dark-raspberry);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: var(--eggshell);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 7.6875rem 22rem;
+    }
+
+    main {
+        background-color: var(--white);
+        border-radius: 1.5rem;
+        padding: 2.5rem;
+        gap: 2.5rem;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .top-image img {
+        height: 18.75rem;
+        border-radius: 0.75rem;
+    }
+}
