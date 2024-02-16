@@ -24,8 +24,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/mobilefirst-recipe-page-solution-using-flexbox-nCzThhl7ss)
+- Live Site URL: [Vercel](https://frontend-mentor-recipe-page-one.vercel.app/)
+- Repo URL: [Github](https://github.com/alonsovzqz/frontend-mentor-recipe-page)
 
 ## My process
 
