@@ -52,3 +52,8 @@ I'd like to make more generic styles and implement CSS Grid in the future and ma
 - Website - [Alonso Vazquez](https://github.com/alonsovzqz)
 - Frontend Mentor - [@alonsovzqz](https://www.frontendmentor.io/profile/alonsovzqz)
 
+
+## Acknowledgments
+- [Daniel 🛸](https://www.frontendmentor.io/profile/danielmrz-dev)
+- [Asish Patnaik](https://www.frontendmentor.io/profile/asishPatnaik2000)
+- [Muhammad Danish](https://www.frontendmentor.io/profile/believer-danish)
